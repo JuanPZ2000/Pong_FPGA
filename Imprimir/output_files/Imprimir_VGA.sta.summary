@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : 13.951
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.557
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 36.848
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.617
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.577
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.755
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 5.981
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : 14.450
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.498
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 37.140
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.346
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.575
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.748
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 11.044
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : 16.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 38.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.484
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.377
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reloj|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.785
+TNS   : 0.000
+
+------------------------------------------------------------

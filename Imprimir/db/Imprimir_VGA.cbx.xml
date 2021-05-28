@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Imprimir_VGA">
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|PLL:reloj|altpll:altpll_component" CBX_FILE_NAME="PLL_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_mhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_9bm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|romRed:ramcho|altsyncram:Mux238_rtl_0" CBX_FILE_NAME="altsyncram_bqv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_mhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_9bm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

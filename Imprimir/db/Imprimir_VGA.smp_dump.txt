@@ -1,0 +1,27 @@
+
+State Machine - |VGA|debouncing:deboun3|pr_state
+Name pr_state.state5 pr_state.state4 pr_state.state3 pr_state.state2 pr_state.state1 pr_state.state0 
+pr_state.state0 0 0 0 0 0 0 
+pr_state.state1 0 0 0 0 1 1 
+pr_state.state2 0 0 0 1 0 1 
+pr_state.state3 0 0 1 0 0 1 
+pr_state.state4 0 1 0 0 0 1 
+pr_state.state5 1 0 0 0 0 1 
+
+State Machine - |VGA|debouncing:deboun2|pr_state
+Name pr_state.state5 pr_state.state4 pr_state.state3 pr_state.state2 pr_state.state1 pr_state.state0 
+pr_state.state0 0 0 0 0 0 0 
+pr_state.state1 0 0 0 0 1 1 
+pr_state.state2 0 0 0 1 0 1 
+pr_state.state3 0 0 1 0 0 1 
+pr_state.state4 0 1 0 0 0 1 
+pr_state.state5 1 0 0 0 0 1 
+
+State Machine - |VGA|debouncing:deboun1|pr_state
+Name pr_state.state5 pr_state.state4 pr_state.state3 pr_state.state2 pr_state.state1 pr_state.state0 
+pr_state.state0 0 0 0 0 0 0 
+pr_state.state1 0 0 0 0 1 1 
+pr_state.state2 0 0 0 1 0 1 
+pr_state.state3 0 0 1 0 0 1 
+pr_state.state4 0 1 0 0 0 1 
+pr_state.state5 1 0 0 0 0 1 

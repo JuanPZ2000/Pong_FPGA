@@ -1,0 +1,31 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+-----------------------------------------------------------
+ENTITY ballcontroller IS
+	PORT 	(		clk				:	IN		STD_LOGIC;
+					racket         :	IN		INTEGER;
+					posix,posiy		:	OUT	INTEGER
+					);
+END ENTITY ballcontroller;
+-----------------------------------------------------------
+ARCHITECTURE rtl OF ballcontroller IS
+SIGNAL	anclax   :	INTEGER:=475;
+SIGNAL	anclay   :	INTEGER:=280;
+SIGNAL	mxt   :	STD_LOGIC;
+------------ HSYNC FP= 16, BP=48, SYNC= 96
+------------ VSYNC FP=10, BP=33, SYNC=2
+BEGIN
+posix<=anclax;
+posiy<=anclay;
+PROCESS(clk,mxt) BEGIN
+
+IF(rising_edge(clk))THEN	
+	
+	anclax<=anclax+1;
+	
+END IF;
+END PROCESS;
+	 
+END ARCHITECTURE rtl;
+-----------------------------------------------------------

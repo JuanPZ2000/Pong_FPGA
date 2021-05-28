@@ -1,0 +1,52 @@
+-----------------------------------------------------------
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+-----------------------------------------------------------
+ENTITY VGA IS
+	PORT 	(		clk	:	IN		STD_LOGIC;
+					rst	:	IN		STD_LOGIC;
+					Hsync	:	OUT	STD_LOGIC;
+					Vsync	:	OUT	STD_LOGIC;
+					R		:	OUT	STD_LOGIC_VECTOR(3 DOWNTO 0);
+					G		:	OUT	STD_LOGIC_VECTOR(3 DOWNTO 0);
+					B		:	OUT	STD_LOGIC_VECTOR(3 DOWNTO 0));
+END ENTITY VGA;
+-----------------------------------------------------------
+ARCHITECTURE rtl OF VGA IS
+	Hpos_S	:	INTEGER:=0;
+	Vpos_S	:	INTEGER:=0;
+	Hpos_S2	:	INTEGER:=0;
+	Vpos_S2	:	INTEGER:=0;
+BEGIN
+	PROCESS(clk) BEGIN
+		IF(rst='1') THEN
+				Hpos_S	<= 0;
+				Vpos_S	<=	0;
+		ELSIF(rising_edge(clk)) THEN
+				Hpos_S	<=	Hpos_S2;
+				Vpos_S	<=	Vpos_S2;
+		END IF;
+	END PROCESS;
+	
+	PROCESS(Hpos_S,Vpos_S) BEGIN
+		IF(HPos_S<799)
+		
+		ELSE
+		
+			IF((Hpos_S>=0 AND Hpos_S<49) OR (Hpos_S>=639 AND Hpos_S<656) THEN
+				Hsync <= '1';
+				R	<=	"0000";
+				G	<=	"0000";
+				B	<=	"0000";
+			ELSE
+			Hsync <= '1';
+			R	<=	"0000";
+			G	<=	"0000";
+			B	<=	"0000";
+		END IF;
+	
+	END PROCESS;
+	
+END ARCHITECTURE rtl;
+-----------------------------------------------------------
